@@ -1,0 +1,27 @@
+
+.card-group {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 20px;
+  justify-content: center;
+  width: 70%;
+}
+.card {
+  box-shadow: 0 2px 8px #9e7070;
+  border-radius: 10px;
+  
+  
+  
+  
+}
+.card-img-top {
+  height: 250px;
+  
+  
+}
+.card:hover{
+  box-shadow: 0 12px 18px #9e7070;
+  transition: all ease 0.7s;
+  transform: scale(1.01);
+}
