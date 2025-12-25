@@ -14,7 +14,7 @@ body {
     overflow: hidden;
 }
 
-/* Welcome Screen */
+
 .welcome-screen {
     min-height: 100vh;
     background: linear-gradient(135deg, #0F172A 0%, #38BDF8 100%);
@@ -171,7 +171,7 @@ body {
 }
 
 .player-image {
-    max-width: 250px;
+    max-width: 280px;
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -274,7 +274,7 @@ body {
     }
 }
 
-/* Game Animations */
+
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -317,7 +317,7 @@ body {
     }
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .welcome-title {
         font-size: 36px;
